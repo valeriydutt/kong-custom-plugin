@@ -13,13 +13,13 @@ version = package_version .. "-" .. rockspec_revision
 supported_platforms = { "linux", "macosx", "w64", "win32" }
 source = {
   url = "git://github.com/valeriydutt/kong-custom-plugin",
-  branch = main,
+  tag = "v0.1.0",
 }
 
 
 description = {
   summary = "Kong is a scalable and customizable API Management Layer built on top of Nginx.",
-  homepage = "https://"..github_account_name..".github.io/"..github_repo_name,
+  homepage = "https://github.com/valeriydutt/kong-custom-plugin/",
   license = "Apache 2.0",
 }
 
